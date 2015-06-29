@@ -1,0 +1,3 @@
+add_lunch_combo candy5_p5110-user
+add_lunch_combo candy5_p5110-userdebug
+add_lunch_combo candy5_p5110-eng
