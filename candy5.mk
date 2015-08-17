@@ -25,8 +25,8 @@ TARGET_SCREEN_WIDTH := 1280
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.carrier=wifi-only
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+# Inherit some common Candy5 stuff.
+$(call inherit-product, vendor/candy5/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/p5110/full_p5110.mk)
@@ -36,7 +36,7 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/espresso-common/overlay/cm-common
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := p5110
-PRODUCT_NAME := cm_p5110
+PRODUCT_NAME := candy5_p5110
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := GT-P5110
 PRODUCT_MANUFACTURER := samsung
